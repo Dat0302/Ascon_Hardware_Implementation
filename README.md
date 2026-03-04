@@ -1,7 +1,6 @@
 # ASCON Hardware Implementation
 
-![License](https://img.shields.io/badge/License-MIT-blue.svg)
-![Language](https://img.shields.io/badge/Language-Verilog%20%2F%20SystemVerilog-orange.svg)
+![Language](https://img.shields.io/badge/Language-Verilog%20%2F%20.svg)
 
 ## 📌 Overview
 This repository contains the Register-Transfer Level (RTL) hardware implementation of the **ASCON** lightweight cryptographic algorithm. The project focuses on designing a highly efficient hardware accelerator IP core optimized for integration into System-on-Chip (SoC) architectures.
