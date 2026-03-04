@@ -21,12 +21,10 @@ To maintain a clean project, the repository is organized as follows:
 
 ```text
 Ascon_Hardware_Implementation/
-├── rtl/                # Verilog source files for the ASCON core
-│   ├── datapath.v
-│   ├── control_unit.v
-│   └── ascon_top.v
-├── tb/                 # Verification environment (Verilog / C testbenches)
-├── sim/                # Simulation scripts
-├── syn/                # Synthesis scripts and constraints
-├── docs/               # Datasheets, block diagrams, and project documentation
+├── hardware/                # Verilog source files for the ASCON core
+│   ├── ascon_aead_128.v
+│   ├── ascon_permutation.v
+│   └── ascon_wishbone_wrapper.v
+├── software/          
+├── testbench/                   
 └── README.md
